@@ -13,7 +13,4 @@ if discriminant >= 0:
     root2 = (-b - math.sqrt(discriminant)) / (2 * a)
     print(f"The roots are: {root1} and {root2}")
 else:
-    # Handle complex roots
-    real_part = -b / (2 * a)
-    imaginary_part = math.sqrt(abs(discriminant)) / (2 * a)
-    print(f"The roots are: {real_part} + {imaginary_part}i and {real_part} - {imaginary_part}i")
+    print(f"the roots are less than or equal to 0")
