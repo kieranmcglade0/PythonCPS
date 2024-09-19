@@ -7,7 +7,7 @@ c = float(input("What is 'c'?: "))
 # Calculate the discriminant
 discriminant = b**2 - 4*a*c
 
-# Check if the discriminant is non-negative for real roots
+# Check if the discriminant is non-negative, otherwise an error is output. 
 if discriminant >= 0:
     root1 = (-b + math.sqrt(discriminant)) / (2 * a)
     root2 = (-b - math.sqrt(discriminant)) / (2 * a)
